@@ -1,13 +1,16 @@
-:root{
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
     font-family: "Alice", sans-serif;
     line-height: 150%;
+    color: #573A37;
 }
-
 body {
     background-image: url(img/bg-image.jpg);
     background-size: cover;
 }
-
 #page {
     box-sizing: border-box;
     padding: 24px;
@@ -16,20 +19,37 @@ body {
     border-radius: 24px;
     margin: 48px auto;
 }
-
-img{
+img {
     border-radius: 16px;
+    width: 700px;
+    margin-bottom: 20px;
 }
-
-h1{
+main{
+    padding: 24px;
+}
+section + section {
+    margin-top: 24px;
+}
+#about p + p {
+    margin-top: 12px;
+}
+h1 {
     line-height: 140%;
     font-size: 40px;
 }
-
-h2{
+h2 {
     font-size: 24px;
 }
-
 h1, h2 {
-    color: #291B1A
+    color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+ul {
+    padding-left: 24px;
+}
+footer {
+    text-align: center;
+    color: #f0e8c2;
+    padding-bottom: 48px;
 }
